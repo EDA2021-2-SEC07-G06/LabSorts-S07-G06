@@ -132,13 +132,6 @@ while True:
         print('Se encontraron: ', book_count, ' Libros')
 
     elif int(inputs[0]) == 5:
-        # TODO completar modificaciones para el laboratorio 4
-        size = input("Indique tamaño de la muestra: ")
-        result = controller.sortBooks(catalog, int(size))
-        print("Para la muestra de", size, " elementos, el tiempo (mseg) es: ",
-                                          str(result))
-    
-    elif int(inputs[0]) == 5:
         size = input("Indique tamaño de la muestra: ")
         result = controller.sortBooks(catalog, int(size))
         print("Para la muestra de", size, " elementos, el tiempo (mseg) es: ", str(result[0]))

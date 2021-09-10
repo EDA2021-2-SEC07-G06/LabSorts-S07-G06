@@ -19,6 +19,9 @@
  * You should have received a copy of the GNU General Public License
  * along withthis program.  If not, see <http://www.gnu.org/licenses/>.
  """
+import sys
+default_limit = 1000
+sys.setrecursionlimit(default_limit*10)
 
 import config as cf
 import sys
